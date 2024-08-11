@@ -75,6 +75,6 @@
     .colorMode {
         position: absolute;
         top: 50%;
-        right: 60px;
+        right: 0;
     }   
 }
