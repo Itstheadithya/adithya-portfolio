@@ -63,7 +63,7 @@
     .menuIcon {
         display: block;
         padding-top: 50px;
-        left:0px;
+        left:-10px;
     }
 
     a {
