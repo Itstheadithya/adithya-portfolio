@@ -1,0 +1,80 @@
+.container{
+    display:flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    width: 90%;
+    text-align: right;
+    padding: 10px;
+    background-color: var(--background-color);
+
+
+    .colorMode{
+        position:absolute;
+        right:30;
+        top:10px;
+        width: 25px;
+        padding-right: 30px;
+    }
+
+    .colorMode:hover{
+        cursor: pointer;
+    }
+
+    a{
+        font-family: 'Rubik',sans-serif;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 16px;
+        color:var(--text-color);
+    }
+
+    a:hover{
+        cursor: pointer;
+    }
+}
+
+.menuIcon {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+@media(width<=800px){
+    .navMenu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--background-color);
+        text-align: left;
+        padding: 30px;
+    }
+
+    .showMenu {
+        display: flex;
+        top: 300%;
+    }
+
+    .menuIcon {
+        display: block;
+        padding-top: 50px;
+        left:-50px;
+    }
+
+    a {
+        padding: 10px 20px;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .colorMode {
+        position: absolute;
+        top: 50%;
+        right: 60px;
+    }   
+}

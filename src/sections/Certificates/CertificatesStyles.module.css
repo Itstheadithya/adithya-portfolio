@@ -1,0 +1,52 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+    img{
+        max-width:250px;
+        align-self: center;
+        background-color: var(--certificate-card-bg);
+        border-radius: 30px;
+    }
+
+    a{
+        width:fit-content;
+        text-decoration: none;
+        color: #222;
+        transition: transform 200ms ease-in-out;
+    }
+
+    p{
+        max-width: 35ch;
+        padding-bottom: 50px;
+    }
+
+    a:hover{
+        transform: scale(1.05);
+    }
+
+    h1{
+        padding-top: 30px;
+    }
+
+}
+
+.certificatesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 20px 20px;
+    gap: 30px;
+}
+
+
+@media(width>=800px){
+    .certificatesContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 30px 30px;
+
+    }
+}
