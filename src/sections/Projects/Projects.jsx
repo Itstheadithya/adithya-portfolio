@@ -15,7 +15,7 @@ function Projects(){
                     p='Fce-Mask-Detection-Master'
                 />
 
-                <ProjectsCard src={movie} link={'https://drive.google.com/file/d/1lScXjmUIi-GO8ZNku2SXTgO_QNhVRyzH/view?usp=drive_link'}
+                <ProjectsCard src={movie} link={'https://github.com/Itstheadithya/recommendationsystem.github.io'}
                     h3="Way2Watch"
                     p='Movie Recommendation System'
                 />
