@@ -41,7 +41,7 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>
-                A passion for developing modern application and an enthusiasm for CyberSecurity
+                A passion for developing modern application and an enthusiasm for AIML & CyberSecurity
             </p>
             <a id='resume' href={cv} download>
                 <button className='hover'>Resume</button>
