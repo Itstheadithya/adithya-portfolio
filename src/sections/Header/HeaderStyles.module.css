@@ -6,6 +6,7 @@
     text-align: right;
     padding: 10px;
     background-color: var(--background-color);
+    z-index: 10;
 
 
     .colorMode{
