@@ -41,7 +41,7 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>
-            I am a passionate Computer Science and Engineering student at MVSR Engineering College with a keen interest in artificial intelligence and cybersecurity. With hands-on experience in Python, Java, and machine learning, I have developed projects in areas like face mask detection and GAN-based image processing. I am committed to advancing my skills in technology while promoting diversity and innovation. Currently, I am working on image-to-image translation with conditional GANs and actively applying for software engineering roles in AI and machine learning.
+                A passion for developing modern application and an enthusiasm for AIML & CyberSecurity
             </p>
             <a id='resume' href={cv} download>
                 <button className='hover'>Resume</button>
